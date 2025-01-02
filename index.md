@@ -1,7 +1,6 @@
-# Welcome to My Blog!
+# This is Velvet and Prose Petals, here we share Whispers of growth, laced with golden dreams and starlit musings.
 ---
-layout: default
-title: "Heart Aches"
+"Heart Aches"
 ---
 
 # Heart Aches
