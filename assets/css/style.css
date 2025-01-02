@@ -1,0 +1,45 @@
+/* Body styles */
+body {
+    font-family: 'IM Fell Pica', serif;
+    background-color: #FAF6F3; /* Ivory Cream */
+    color: #1C1C1C; /* Charcoal Black */
+}
+
+/* Post title styles */
+h1 {
+    color: #D4AF37; /* Rich Gold */
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+/* Link styles */
+a {
+    color: #8A7090; /* Soft Violet */
+}
+
+a:hover {
+    color: #BBAEBB; /* Mystic Silver */
+}
+
+/* Header styles */
+header {
+    background-color: #1C1C1C; /* Charcoal Black */
+    color: #FAF6F3; /* Ivory Cream */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #1C1C1C; /* Charcoal Black */
+    color: #FAF6F3; /* Ivory Cream */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Blockquote styles */
+blockquote {
+    font-style: italic;
+    color: #8A7090; /* Soft Violet */
+    border-left: 5px solid #D4AF37; /* Rich Gold */
+    padding-left: 15px;
+}
