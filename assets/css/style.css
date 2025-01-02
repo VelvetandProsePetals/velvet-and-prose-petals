@@ -1,45 +1,135 @@
-/* Body styles */
+/* Body and background */
 body {
     font-family: 'IM Fell Pica', serif;
-    background-color: #FAF6F3; /* Ivory Cream */
-    color: #1C1C1C; /* Charcoal Black */
+    background-color: #F0E6D2; /* Light cream for a soft, calming background */
+    color: #333333; /* Darker gray for text, easy on the eyes */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-/* Post title styles */
-h1 {
-    color: #D4AF37; /* Rich Gold */
+/* General layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #1A1A1D; /* Deep dark color */
+    color: #FAF6F3; /* Ivory Cream */
+    padding: 30px;
+    text-align: center;
+    border-bottom: 4px solid #D4AF37; /* Gold accent for professional touch */
+}
+
+header h1 {
     font-family: 'Cinzel Decorative', cursive;
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #D4AF37; /* Rich Gold */
 }
 
-/* Link styles */
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #F0E6D2; /* Softer cream for subheading */
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    padding: 15px 0;
+}
+
+nav a {
+    color: #FAF6F3;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #D4AF37; /* Gold for hover effect */
+}
+
+/* Blog post */
+article {
+    background-color: #FAF6F3;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+article h2 {
+    font-size: 2.5em;
+    color: #1A1A1D; /* Dark gray for post titles */
+    margin-bottom: 20px;
+}
+
+article p {
+    font-size: 1.2em;
+    color: #333333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Blockquote styling */
+blockquote {
+    font-size: 1.1em;
+    color: #8A7090; /* Soft Violet */
+    border-left: 5px solid #D4AF37; /* Gold accent for blockquote */
+    padding-left: 20px;
+    margin-left: 0;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #1A1A1D;
+    color: #FAF6F3;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Link styling */
 a {
     color: #8A7090; /* Soft Violet */
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 a:hover {
-    color: #BBAEBB; /* Mystic Silver */
+    color: #D4AF37; /* Gold accent */
 }
 
-/* Header styles */
-header {
-    background-color: #1C1C1C; /* Charcoal Black */
-    color: #FAF6F3; /* Ivory Cream */
-    padding: 20px;
-    text-align: center;
-}
+/* Responsive design for mobile */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
 
-/* Footer styles */
-footer {
-    background-color: #1C1C1C; /* Charcoal Black */
-    color: #FAF6F3; /* Ivory Cream */
-    padding: 10px;
-    text-align: center;
-}
+    article {
+        padding: 20px;
+    }
 
-/* Blockquote styles */
-blockquote {
-    font-style: italic;
-    color: #8A7090; /* Soft Violet */
-    border-left: 5px solid #D4AF37; /* Rich Gold */
-    padding-left: 15px;
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
 }
